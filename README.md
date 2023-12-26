@@ -1,0 +1,1 @@
+Using OpenGL implement Map Generalization

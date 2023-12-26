@@ -1,0 +1,15 @@
+﻿  Delaunay.cpp
+  main.cpp
+E:\repository\OpenGIS\main.cpp(100,40): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+E:\repository\OpenGIS\main.cpp(138,35): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+E:\repository\OpenGIS\main.cpp(139,30): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+E:\repository\OpenGIS\main.cpp(53,21): warning C4101: “nVertices”: 未引用的局部变量
+  shader.cpp
+  正在生成代码...
+  OpenGIS.vcxproj -> E:\repository\OpenGIS\x64\Debug\OpenGIS.exe
+  'pwsh.exe' 不是内部或外部命令，也不是可运行的程序
+  或批处理文件。
