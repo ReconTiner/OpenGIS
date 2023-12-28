@@ -5,6 +5,10 @@
 class Vertex
 {
 public:
+	// 坐标
+	double x;
+	double y;
+
 	/* 构造函数 */
 	Vertex() : x(0.0), y(0.0) {};
 	Vertex(double x, double y)
@@ -28,8 +32,4 @@ public:
 	{
 		return (x == v.x) && (y == v.y);
 	}
-private:
-	// 坐标
-	double x;
-	double y;
 };
