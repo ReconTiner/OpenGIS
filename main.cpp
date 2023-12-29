@@ -6,6 +6,7 @@
 
 #include "shader.h"
 
+
 // 函数声明
 void processInput(GLFWwindow* window);
 // 回调函数
@@ -96,6 +97,7 @@ int main()
             vertices.push_back(x);
             vertices.push_back(y);
             vertices.push_back(z);
+
         }
         size.push_back(vertices.size() / 3);
 
@@ -108,8 +110,8 @@ int main()
     SHPClose(hShp);
 
     // 解除绑定
-    // glBindBuffer(GL_ARRAY_BUFFER, 0);
-    // glBindVertexArray(0);
+    glBindBuffer(GL_ARRAY_BUFFER, 0);
+    glBindVertexArray(0);
 
     // 渲染循环
     while (!glfwWindowShouldClose(window))
@@ -126,7 +128,7 @@ int main()
         // 逐个要素绘制
         for (int i = 0; i < size.size(); i++) 
         {
-            // glBindVertexArray(VAOs[i]);
+            glBindVertexArray(VAOs[i]);
             glDrawArrays(GL_LINE_STRIP, 0, size[i]);
         }
         

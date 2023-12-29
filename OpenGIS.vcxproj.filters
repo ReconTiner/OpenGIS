@@ -19,18 +19,18 @@
     <None Include="shader.frag" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Delaunay.cpp">
+    <ClCompile Include="shader.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="shader.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="delaunay.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

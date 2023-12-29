@@ -1,4 +1,4 @@
-E:\repository\OpenGIS\x64\Debug\OpenGIS.vcxproj.CopyComplete
 E:\repository\OpenGIS\x64\Debug\OpenGIS.exe
+E:\repository\OpenGIS\x64\Debug\OpenGIS.vcxproj.CopyComplete
 E:\repository\OpenGIS\x64\Debug\glfw3.dll
 E:\repository\OpenGIS\x64\Debug\shp.dll

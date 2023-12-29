@@ -131,11 +131,11 @@
     <None Include="shader.vert" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Delaunay.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="shader.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="delaunay.h" />
     <ClInclude Include="shader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
